@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+#selectedImage {
+    height: 100vh;
+    width: 80%;
+    background-color: antiquewhite;
+    position: relative;
+}
+#listImage {
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    z-index: 1;
+}
+.boxstyle {
+    height: 20%;
+    min-height: 120px;
+    width: 100%;
+    position:relative
+}
+.imgstyle {
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   -webkit-transform: translateY(-50%) translateX(-50%);
+    height: 100%;
+}
+#imgone {
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   -webkit-transform: translateY(-50%) translateX(-50%);
+    height: 100%;
+}
+.frecciaup{
+    position: absolute;
+    left: 90%;
+    float: left;
+    z-index: 3;
+    -webkit-transform: translateX(-50%);
+    background-color: rgba(204, 204, 204, 1);
+    border-radius: 20px;
+    padding: 5px;
+    
+}
+.frecciadown {
+    position: absolute;
+    top: 100%;
+    left: 90%;
+    float: left;
+    z-index: 3;
+    -webkit-transform: translateY(-100%) translateX(-50%);
+    background-color: rgba(204, 204, 204, 1);
+    border-radius: 20px;
+    padding: 5px;
+}
+#titolo {
+    position: absolute;
+    top: 90%;
+    left: 90%;
+    float: left;
+    z-index: 3;
+    -webkit-transform: translateY(-100%) translateX(-50%);
+    color: white;
+    font-size: 30px;
+}
+#sottotitolo {
+    position: absolute;
+    top: 95%;
+    left: 89%;
+    float: left;
+    z-index: 3;
+    -webkit-transform: translateY(-100%) translateX(-50%);
+    color: white;
+}
